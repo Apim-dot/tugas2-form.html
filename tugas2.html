@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Form Pendaftaran Mahasiswa</title>
+        
+        <!--Menghubungkan HTML dengan CSS -->
+        <link rel="stylesheet" href="form.css">
+    </head>
+
+    <body>
+        <div class="form-container">
+            <h1>Form Pendaftaran Mahasiswa</h1>
+
+            <form>
+
+                <!-- TEXT-->
+                 <label for="nama">Nama Lengkap:</label>
+                 <input type="text" id="nama" name="nama" placeholder="Masukkan nama">
+
+                 <!--PASSWORD-->
+                 <label for="password">Password:</label>
+                 <input type="password" id="password" name="password" placeholder="Masukkan password">
+
+                 <!--TEXTAREA-->
+                 <label for="alamat">Alamat:</label>
+                 <textarea id="alamat" name="alamat" rows="4" placeholder="Masukkan alamat"></textarea>
+
+                 <!--RADIO BUTTONS-->
+                 <label>Jenis Kelamin:</label>
+                 
+                 <div class="radio-grup">
+                    <input type="radio" id="laki" name="gender" value="Laki-Laki">
+                    <label for="laki">Laki-Laki</label>
+
+                    <input type="radio" id="perempuan" name="gender" value="Perempuan">
+                    <label for="perempuan">Perempuan</label>
+                    </div>
+
+                    <!--CHECKBOX-->
+                    <label>Hobi:</label>
+
+                    <div class="checkbox-grup">
+                        <input type="checkbox" id="membaca" name="hobi" value="Membaca">
+                        <label for="membaca">Membaca</label>
+
+                        <input type="checkbox" id="menulis" name="hobi" value="Menulis">
+                        <label for="menulis">Menulis</label>
+
+                        <input type="checkbox" id="olahraga" name="hobi" value="Olahraga">
+                        <label for="olahraga">Olahraga</label>
+                    </div>
+
+            </form>
+       
+        
+    </body>
+</html>
